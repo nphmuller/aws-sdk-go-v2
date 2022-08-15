@@ -79,7 +79,7 @@ type DescribeEnvironmentHealthOutput struct {
 
 	// The environment's operational status. Ready, Launching, Updating, Terminating,
 	// or Terminated.
-	Status types.EnvironmentHealth
+	Status types.EnvironmentStatus
 
 	// Metadata pertaining to the operation's result.
 	ResultMetadata middleware.Metadata
